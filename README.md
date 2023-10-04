@@ -79,7 +79,7 @@ docker save -o fairy_docker_v0.tar.xz fairy_docker:v0
 ## Citations (Updating)
 If you find this repository useful, please consider citing our paper:  
 ```
-@misc{liu2023inferior,
+@misc{lin2023inferior,
       title={A Coarse-to-Fine Framework for the Topology-Aware Anatomical Segmentation of the Circle of Willis}, 
       author={Zehang and Lin,Yusheng Liu,and Shunzhi Zhu},
       year={2023},
