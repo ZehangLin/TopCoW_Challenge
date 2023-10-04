@@ -76,5 +76,3 @@ Finally, save the docker images if needed.
 ```
 docker save -o fairy_docker_v0.tar.xz fairy_docker:v0
 ```
-}
-```
