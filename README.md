@@ -69,10 +69,10 @@ sh build.sh
 ```
 Run the docker container to test the final model.
 ```
-docker container run --ipc=host -it --rm --gpus "device=1" --name fairy_nnunetv2 -v /media/ps/lys/CBCT_IAN/Fairy_Tooth/docker/model_generic_unet/   input:/input -v /media/ps/lys/CBCT_IAN/Fairy_Tooth/docker/model_generic_unet/output:/output toothfairy_generic:v1.0
+docker container run --ipc=host -it --rm --gpus "device=1" --name Top_CoW_nnunetv2 -v /media/ps/lys/Top_CoW/docker/model_generic_unet/   input:/input -v /media/ps/lys/Top_CoW/docker/model_generic_unet/output:/output TopCoW_generic:v1.0
 ```
 The inference process and information (weight path, data info, TTA) could be modified in `test.py`.  
 Finally, save the docker images if needed.
 ```
-docker save -o fairy_docker_v0.tar.xz fairy_docker:v0
+docker save -o Top_CoW_docker_v0.tar.xz Top_CoW_docker:v0
 ```
